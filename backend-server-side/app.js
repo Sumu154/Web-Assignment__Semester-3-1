@@ -25,10 +25,14 @@ const port = process.env.PORT || 3000;
 
 // import all the routes
 const userRoutes = require('./routes/userRoutes');
-const taskRoutes = require('./routes/taskRoutes')
+const taskRoutes = require('./routes/taskRoutes');
+const authRoutes = require('./routes/authRoutes')
 
-app.use('/api', userRoutes)
+
+app.use('/api', userRoutes);
 app.use('/api', taskRoutes);
+app.use('/api', authRoutes);
+
 
 
 app.get('/', (req, res) => {
