@@ -23,8 +23,16 @@ app.use(cookieParser());
 const port = process.env.PORT || 3000;
 
 
+// import all the routes
+const userRoutes = require('./routes/userRoutes');
+const taskRoutes = require('./routes/taskRoutes')
+
+app.use('/api', userRoutes)
+app.use('/api', taskRoutes);
+
+
 app.get('/', (req, res) => {
-  res.send('hello.....assignment hbe ki?')
+  res.send('hello.....kire assignment hbe?')
 })
 
 app.listen(port, () => {
