@@ -42,14 +42,14 @@ A full-stack web application for managing personal tasks, built with the MERN st
 
 ## Run instructions 
 ### backend
-cd backend-server-side
-npm install
-nodemon .
+- cd backend-server-side
+- npm install
+- nodemon .
 
 ### frontend
-cd frontend-client-side
-npm install
-npm run dev
+- cd frontend-client-side
+- npm install
+- npm run dev
 
 
 
