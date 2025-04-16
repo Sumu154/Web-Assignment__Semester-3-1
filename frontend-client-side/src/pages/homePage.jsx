@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-const homePage = () => {
+const HomePage = () => {
   return (
     <div>
       <Helmet>
@@ -14,4 +14,4 @@ const homePage = () => {
   );
 };
 
-export default homePage;
+export default HomePage;

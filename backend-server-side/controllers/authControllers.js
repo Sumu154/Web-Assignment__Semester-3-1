@@ -39,4 +39,8 @@ const getToken = (req, res) => {
   }
 }
 
-module.exports = { createToken, clearToken, getToken };
+module.exports = { 
+  createToken, 
+  clearToken, 
+  getToken 
+};

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createToken, clearToken, getToken } = require('../controllers/authController');
+const { createToken, clearToken, getToken } = require('../controllers/authControllers');
 const { verifyToken } = require('../middlewares/authMiddleware');
 
 // create token while signup, login and social
